@@ -1,0 +1,28 @@
+
+
+header {
+	background-color: rgba(4, 89, 41, 0.8);
+	color: #f2f2f2;
+	padding: 0 30%;
+}
+
+#btns {
+	background-color: rgba(4, 89, 41, 0.4);
+	padding: 5%;
+	margin: 3%;
+	color: #f2f2f2;
+	text-align: center;
+	position: 
+}
+
+#btns input {
+	width: 50%;
+}
+
+@media (min-width: 760px) and (max-width: 1600px) {
+	#btns input {
+		width: 100%;
+
+	}
+
+}
