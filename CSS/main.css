@@ -1,28 +1,73 @@
+* {
+	font-family: FontAwesome, sans-serif;
 
-
-header {
-	background-color: rgba(4, 89, 41, 0.8);
-	color: #f2f2f2;
-	padding: 0 30%;
 }
 
+#city {
+	background-image: url("../img/city-cars.jpeg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	color: white;
+}
+
+#bgwhite {
+	background-color: rgba(250,250,250, 0.4);
+	background-size: cover;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	
+}
+
+header {
+	position: left;
+	padding-top: 3%; 
+}
+
+header img {
+	width: 35%;
+	}
+
 #btns {
-	background-color: rgba(4, 89, 41, 0.4);
+	background-color: rgba(68, 26, 71, 0.4);
 	padding: 5%;
 	margin: 3%;
 	color: #f2f2f2;
 	text-align: center;
-	position: 
 }
 
 #btns input {
 	width: 50%;
-}
-
-@media (min-width: 760px) and (max-width: 1600px) {
-	#btns input {
-		width: 100%;
-
-	}
+	background-color: #270F29;
+	font-size: 2em;
+	color: #f2f2f2;
 
 }
+
+.purple {
+	background-color: #270F29;
+}
+
+.rutea {
+	width: 50%;
+	height: 40%;
+	font-size: 3em;
+	color: #f2f2f2;
+}
+
+#maps {
+	padding: 5% 0;
+}
+
+footer {
+	background-color: #270F29;
+}
+
+@media (min-width: 300px) and (max-width: 750px) {
+	header img {
+	width: 100%;
+	}	
+}
+
+
